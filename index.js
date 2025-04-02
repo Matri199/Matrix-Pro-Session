@@ -15,7 +15,7 @@ res.sendFile(__path + '/main.html')
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.listen(PORT, () => {
-    console.log(`YoutTube: @matrix-zat\nTelegram: @MatriXXXXXXXXX\nGitHub: @Matrixmddata\nAuthor: Matrix\n\nServer running on http://localhost:` + PORT)
+    console.log(`YoutTube: @matrix-zat\nTelegram: @MatriXXXXXXXXX\nGitHub: @Matrix-V2-Pro\nAuthor: Matrix\n\nServer running on http://localhost:` + PORT)
 })
 
 module.exports = app
